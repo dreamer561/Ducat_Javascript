@@ -1,7 +1,9 @@
-// let date = new Date();
-// let m = date.getMonth()+1;
-// let d = date.getDate();
-// let y = date.getFullYear();
+ let date = new Date();
+
+
+ let m = date.getMonth()+1;
+ let d = date.getDate();
+ let y = date.getFullYear();
 
 
 let months=['jan','feb','march','april','may',
