@@ -1,7 +1,7 @@
  let date = new Date();
 
 
- let m = date.getMonth()+1;
+ let m = date.getMonth();
  let d = date.getDate();
  let y = date.getFullYear();
 
