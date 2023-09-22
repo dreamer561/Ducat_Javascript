@@ -34,7 +34,7 @@ switch (formatted_Choice) {
      case '3':
         console.log( formated_date = `${y}-${months[m]}-${d}`);
 
-//         break;
+        break;
 
 
     case '4':
