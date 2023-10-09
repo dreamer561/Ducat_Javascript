@@ -83,5 +83,36 @@ getocuntries()
 .then((data)=>{console.log(data);})
 .catch((error)=>{console.log(error);})
 
+for (i in arr){
+    console.log(arr[i]); 
+    sum+=arr[i]
+}
+console.log(sum);
+
+// Recursion
+let arrays=[1,2,3,4,5,6,7,8,9,10]
+let sumarr=(arrays,index=0)=>{
+    if (index===arrays.length){
+        return 0;
+    }else{
+        return arrays[index]+sumarr(arrays,index+1)
+    }
+}
+let totalsum=sumarr(arrays);
+console.log(totalsum);
+
+// Factorial
+let n=7
+let fact=(num)=>{
+    if(num==0){
+        return 1;
+    }
+    else{
+        return num*fact(num-1)
+    }
+}
+let factorial=fact(n)
+console.log(factorial);
+
 
 
